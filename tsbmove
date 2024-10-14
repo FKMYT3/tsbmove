@@ -112,7 +112,7 @@ findGuiAndSetText()
 
 --[[Move 1]]
 
-local animationId = 93754929363020
+local animationId = 113709189350586
 
 
 local player = game.Players.LocalPlayer
