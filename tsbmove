@@ -15,7 +15,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "anim"
+ToolName.Text = "Move1"
 
 
 local player = game.Players.LocalPlayer
@@ -33,7 +33,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "anim2"
+ToolName.Text = "Move2"
 
 
 local player = game.Players.LocalPlayer
@@ -51,7 +51,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "anim3"
+ToolName.Text = "Move3"
 
 
 local player = game.Players.LocalPlayer
@@ -69,7 +69,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "anim4"
+ToolName.Text = "Move4"
 
 
 local Players = game:GetService("Players")
@@ -112,7 +112,7 @@ findGuiAndSetText()
 
 --[[Move 1]]
 
-local animationId = 113709189350586
+local animationId = 10468665991
 
 
 local player = game.Players.LocalPlayer
@@ -141,7 +141,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://17838006839"
+AnimAnim.AnimationId = "rbxassetid://88065994676325"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -199,7 +199,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://18181589384"
+AnimAnim.AnimationId = "rbxassetid://76816922094539"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
